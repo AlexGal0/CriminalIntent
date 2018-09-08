@@ -32,6 +32,7 @@ public class CrimeListFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         Crime c = (Crime)(getListAdapter()).getItem(position);
         Log.i(TAG, c.getTitle() + " was clicked");
+
     }
 
 
